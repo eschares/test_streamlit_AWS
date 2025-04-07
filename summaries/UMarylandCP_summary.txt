@@ -1,8 +1,8 @@
-Researchers at University of Maryland, College Park published an estimated 36,865 articles over the eight years 2016-2023, with a single year's output ranging from 4,311 to 4,991.
+Researchers at **University of Maryland, College Park** published an estimated 36,865 articles over the eight years 2016-2023, with a single year's output ranging from 4,311 to 4,991.
 
 Looking only at 2023's output of 4,601 articles, 32.0% have a Corresponding Author from University of Maryland, College Park. Of those, 64.3% acknowledge some form of US federal funding (947 total articles).
 
-The top journal destinations for these Corresponding Authored and US federally funded articles across all years were The Astrophysical Journal and Nature Communications.
+The top journal destinations for these Corresponding Authored and US federally funded articles across all years were *The Astrophysical Journal* and *Nature Communications*.
 
 Corresponding Authored papers from University of Maryland, College Park during the timeframe studied here most commonly acknowledged the US federal funding agencies National Science Foundation and United States Department of Health and Human Services.
 

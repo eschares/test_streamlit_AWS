@@ -1,8 +1,8 @@
-Researchers at Morgan State University published an estimated 1,503 articles over the eight years 2016-2023, with a single year's output ranging from 140 to 272.
+Researchers at **Morgan State University** published an estimated 1,503 articles over the eight years 2016-2023, with a single year's output ranging from 140 to 272.
 
 Looking only at 2023's output of 272 articles, 40.1% have a Corresponding Author from Morgan State University. Of those, 51.4% acknowledge some form of US federal funding (56 total articles).
 
-The top journal destinations for these Corresponding Authored and US federally funded articles across all years were ACS Omega and International Journal of Environment.
+The top journal destinations for these Corresponding Authored and US federally funded articles across all years were *ACS Omega* and *International Journal of Environment*.
 
 Corresponding Authored papers from Morgan State University during the timeframe studied here most commonly acknowledged the US federal funding agencies United States Department of Health and Human Services and National Science Foundation.
 

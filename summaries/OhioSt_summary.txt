@@ -1,8 +1,8 @@
-Researchers at The Ohio State University published an estimated 57,228 articles over the eight years 2016-2023, with a single year's output ranging from 6,118 to 7,813.
+Researchers at **The Ohio State University** published an estimated 57,228 articles over the eight years 2016-2023, with a single year's output ranging from 6,118 to 7,813.
 
 Looking only at 2023's output of 7,764 articles, 44.8% have a Corresponding Author from The Ohio State University. Of those, 50.9% acknowledge some form of US federal funding (1,771 total articles).
 
-The top journal destinations for these Corresponding Authored and US federally funded articles across all years were PLOS ONE and Scientific Reports.
+The top journal destinations for these Corresponding Authored and US federally funded articles across all years were *PLOS ONE* and *Scientific Reports*.
 
 Corresponding Authored papers from The Ohio State University during the timeframe studied here most commonly acknowledged the US federal funding agencies United States Department of Health and Human Services and National Science Foundation.
 

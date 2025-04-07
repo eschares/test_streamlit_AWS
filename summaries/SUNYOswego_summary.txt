@@ -1,8 +1,8 @@
-Researchers at State University of New York at Oswego published an estimated 706 articles over the eight years 2016-2023, with a single year's output ranging from 52 to 109.
+Researchers at **State University of New York at Oswego** published an estimated 706 articles over the eight years 2016-2023, with a single year's output ranging from 52 to 109.
 
 Looking only at 2023's output of 109 articles, 33.0% have a Corresponding Author from State University of New York at Oswego. Of those, 33.3% acknowledge some form of US federal funding (12 total articles).
 
-The top journal destinations for these Corresponding Authored and US federally funded articles across all years were PeerJ and Journal of Great Lakes Research.
+The top journal destinations for these Corresponding Authored and US federally funded articles across all years were *PeerJ* and *Journal of Great Lakes Research*.
 
 Corresponding Authored papers from State University of New York at Oswego during the timeframe studied here most commonly acknowledged the US federal funding agencies National Science Foundation and United States Department of Commerce.
 

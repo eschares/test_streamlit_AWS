@@ -1,8 +1,8 @@
-Researchers at Iowa State University published an estimated 23,548 articles over the eight years 2016-2023, with a single year's output ranging from 2,744 to 3,143.
+Researchers at **Iowa State University** published an estimated 23,548 articles over the eight years 2016-2023, with a single year's output ranging from 2,744 to 3,143.
 
 Looking only at 2023's output of 2,776 articles, 48.1% have a Corresponding Author from Iowa State University. Of those, 54.9% acknowledge some form of US federal funding (733 total articles).
 
-The top journal destinations for these Corresponding Authored and US federally funded articles across all years were PLOS ONE and Journal of Animal Science.
+The top journal destinations for these Corresponding Authored and US federally funded articles across all years were *PLOS ONE* and *Journal of Animal Science*.
 
 Corresponding Authored papers from Iowa State University during the timeframe studied here most commonly acknowledged the US federal funding agencies National Science Foundation and United States Department of Agriculture.
 

@@ -1,8 +1,8 @@
-Researchers at Cold Spring Harbor Laboratory published an estimated 1,480 articles over the eight years 2016-2023, with a single year's output ranging from 157 to 224.
+Researchers at **Cold Spring Harbor Laboratory** published an estimated 1,480 articles over the eight years 2016-2023, with a single year's output ranging from 157 to 224.
 
 Looking only at 2023's output of 193 articles, 50.8% have a Corresponding Author from Cold Spring Harbor Laboratory. Of those, 86.7% acknowledge some form of US federal funding (85 total articles).
 
-The top journal destinations for these Corresponding Authored and US federally funded articles across all years were Nature Communications and eLife.
+The top journal destinations for these Corresponding Authored and US federally funded articles across all years were *Nature Communications* and *eLife*.
 
 Corresponding Authored papers from Cold Spring Harbor Laboratory during the timeframe studied here most commonly acknowledged the US federal funding agencies United States Department of Health and Human Services and National Science Foundation.
 

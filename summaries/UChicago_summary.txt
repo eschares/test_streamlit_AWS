@@ -1,8 +1,8 @@
-Researchers at University of Chicago published an estimated 52,642 articles over the eight years 2016-2023, with a single year's output ranging from 5,880 to 7,256.
+Researchers at **University of Chicago** published an estimated 52,642 articles over the eight years 2016-2023, with a single year's output ranging from 5,880 to 7,256.
 
 Looking only at 2023's output of 7,109 articles, 31.6% have a Corresponding Author from University of Chicago. Of those, 53.9% acknowledge some form of US federal funding (1,210 total articles).
 
-The top journal destinations for these Corresponding Authored and US federally funded articles across all years were *Proceedings of the National Academy * and Nature Communications.
+The top journal destinations for these Corresponding Authored and US federally funded articles across all years were *Proceedings of the National Academy* and *Nature Communications*.
 
 Corresponding Authored papers from University of Chicago during the timeframe studied here most commonly acknowledged the US federal funding agencies United States Department of Health and Human Services and National Science Foundation.
 

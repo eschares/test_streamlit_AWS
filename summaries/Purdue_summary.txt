@@ -1,8 +1,8 @@
-Researchers at Purdue University published an estimated 42,080 articles over the eight years 2016-2023, with a single year's output ranging from 4,464 to 5,931.
+Researchers at **Purdue University** published an estimated 42,080 articles over the eight years 2016-2023, with a single year's output ranging from 4,464 to 5,931.
 
 Looking only at 2023's output of 5,504 articles, 48.3% have a Corresponding Author from Purdue University. Of those, 57.4% acknowledge some form of US federal funding (1,527 total articles).
 
-The top journal destinations for these Corresponding Authored and US federally funded articles across all years were Scientific Reports and PLOS ONE.
+The top journal destinations for these Corresponding Authored and US federally funded articles across all years were *Scientific Reports* and *PLOS ONE*.
 
 Corresponding Authored papers from Purdue University during the timeframe studied here most commonly acknowledged the US federal funding agencies National Science Foundation and United States Department of Health and Human Services.
 
