@@ -17,7 +17,7 @@ import re
 
 stqdm.pandas()
 
-st.header('IOI Publishing Profiler - Rewrite')
+st.header('IOI Publishing Profiler - Research Pilot - Rewrite')
 st.markdown('#### Eric Schares')
 
 with st.expander('More information:'):
@@ -193,13 +193,13 @@ st.subheader('Breakdown by **:red[Publisher]**')
 
 st.subheader('By Count')
 
-components.iframe(f"https://eschares.github.io/test_streamlit_AWS/HTML_graphs/{institution_name_nospaces}_fig8.html", height=600, width=1100)
+components.iframe(f"https://eschares.github.io/test_streamlit_AWS/HTML_graphs/{institution_name_nospaces}_fig8.html", height=600, width=900)
 
 
 
 st.subheader('By Percent')
 
-components.iframe(f"https://eschares.github.io/test_streamlit_AWS/HTML_graphs/{institution_name_nospaces}_fig9.html", height=600, width=1000, scrolling=True)
+components.iframe(f"https://eschares.github.io/test_streamlit_AWS/HTML_graphs/{institution_name_nospaces}_fig9.html", height=600, width=900, scrolling=False)
 
 
 # st.write(f"How many publishers are represented each year? How many does it take to make up 50% of {institution_name}'s CorrAuth USFF publications?")
@@ -214,8 +214,8 @@ st.markdown('---')
 #st.header('Further Details on the `yes_yes` Documents (Corresponding & Federally Funded)')
 st.subheader('Breakdown by **:red[Journal Title]**')
 
-components.iframe(f"https://eschares.github.io/test_streamlit_AWS/HTML_graphs/{institution_name_nospaces}_fig10.html", height=600, width=1000)#, scrolling=True)
-components.iframe(f"https://eschares.github.io/test_streamlit_AWS/HTML_graphs/{institution_name_nospaces}_fig13.html", height=800, width=1000)#, scrolling=True)
+components.iframe(f"https://eschares.github.io/test_streamlit_AWS/HTML_graphs/{institution_name_nospaces}_fig10.html", height=800, width=950)#, scrolling=True)
+components.iframe(f"https://eschares.github.io/test_streamlit_AWS/HTML_graphs/{institution_name_nospaces}_fig13.html", height=800, width=950)#, scrolling=True)
 
 
 
@@ -229,55 +229,10 @@ components.iframe(f"https://eschares.github.io/test_streamlit_AWS/HTML_graphs/{i
 
 
 
+st.subheader('Look into the details of the most common federal funder')
+components.iframe(f"https://eschares.github.io/test_streamlit_AWS/HTML_graphs/{institution_name_nospaces}_fig12.html", height=800, width=1000)#, scrolling=True)
+components.iframe(f"https://eschares.github.io/test_streamlit_AWS/HTML_graphs/{institution_name_nospaces}_fig14.html", height=800, width=1000)#, scrolling=True)
 
-
-
-
-
-# Let the user choose a funder to look at more closely. First list all the possible funders found in this set
-list_of_funders = funder_totals['ParentAgency']
-chosen_funder = st.selectbox('Choose a funder to investigate their credited publications in more detail', list_of_funders)
-
-# funders_exploded is still DOI-level
-chosen_funder_DOIlevel = funders_exploded[funders_exploded['ParentAgency']==chosen_funder]
-chosen_funder_DOIlevel[['DOI', 'Source title', 'Publisher', 'PubYear', 'Title', 'ISSN', 'Open Access', 'Authors', 'Authors (Raw Affiliation)', 'Corresponding Authors', 'Authors Affiliations', 'Research Organizations - standardized', 'Funder', 'ParentAgency']]
-
-chosenfunder_byjournaltitle = chosen_funder_DOIlevel.groupby(['Source title', 'PubYear', 'Publisher']).count().reset_index()[['Source title', 'PubYear', 'Publisher', 'DOI']]
-#chosenfunder_byjournaltitle.astype({'PubYear':'int32'}).dtypes
-chosenfunder_byjournaltitle.sort_values(by='PubYear', ascending=True, inplace=True)
-if(debug_flag_savecommands):
-    chosenfunder_byjournaltitle.to_csv(f'data/{institution_name_nospaces}/{institution_name_nospaces}_yesyes_chosenfunder_groupbyjournaltitle.csv', index=False)
-
-fig12 = px.bar(chosenfunder_byjournaltitle, x='Source title', y='DOI', color='PubYear', text_auto='True',
-                     title=f'{institution_name} Corresponding Authored with Funding from <br>the {chosen_funder}, by Journal Title and Year',
-                     category_orders={'PubYear': [2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023]})
-fig12.update_xaxes(categoryorder='total descending', maxallowed=maxallowed)
-fig12.update_layout(height=1000, showlegend=True, legend_traceorder='reversed')
-st.plotly_chart(fig12)
-
-
-
-chosenfunder_byjournal_and_OA = chosen_funder_DOIlevel.groupby(['Source title', 'PubYear', 'Open Access']).count().reset_index()[['Source title', 'PubYear', 'Open Access', 'DOI']]
-chosenfunder_byjournal_and_OA.sort_values(by='PubYear', ascending=True, inplace=True)
-if(debug_flag_savecommands):
-    chosenfunder_byjournal_and_OA.to_csv(f'data/{institution_name_nospaces}/{institution_name_nospaces}_yesyes_chosenfunder_groupbyjournal_and_OA.csv', index=False)
-
-fig14 = px.bar(chosenfunder_byjournal_and_OA, x='Source title', y='DOI', color='Open Access',
-            category_orders={'Open Access': ["Closed", "All OA; Gold", "All OA; Bronze", "All OA; Green", "All OA; Hybrid"]},
-            color_discrete_map={
-                "Closed": "#AB63FA",
-                "All OA; Gold": "gold",
-                "All OA; Bronze": "#636EFA",
-                "All OA; Green": "#2CA02C",
-                "All OA; Hybrid": "#EF553B"},
-            #pattern_shape='Open Access'
-           title = f'{institution_name} Corresponding Authored with Funding from<br>the {chosen_funder}, by Journal title and Open Access status' )
-
-fig14.update_xaxes(categoryorder = 'total descending', maxallowed=maxallowed)
-fig14.update_layout(height=1000, showlegend=True, legend_traceorder='reversed')
-#fig13.update_traces(dict(marker_line_width=0))
-
-st.plotly_chart(fig14)
 
 
 
