@@ -231,14 +231,14 @@ components.iframe(f"https://eschares.github.io/test_streamlit_AWS/HTML_graphs/{i
 
 st.subheader('Look into the details of the most common federal funder')
 components.iframe(f"https://eschares.github.io/test_streamlit_AWS/HTML_graphs/{institution_name_nospaces}_fig12.html", height=800, width=1000)#, scrolling=True)
-components.iframe(f"https://eschares.github.io/test_streamlit_AWS/HTML_graphs/{institution_name_nospaces}_fig14.html", height=800, width=1000)#, scrolling=True)
+components.iframe(f"https://eschares.github.io/test_streamlit_AWS/HTML_graphs/{institution_name_nospaces}_fig14.html", height=1000, width=1000)#, scrolling=True)
 
 
 
 
 
 
-html_string = "<p style=font-size:13px>v1.0, last modified 3/26/2025 <br />by Eric Schares, <a href='mailto:scharesdatascience@gmail.com'>scharesdatascience@gmail.com</a></p>"
+html_string = "<p style=font-size:13px>v1.1, last modified April 10, 2025 <br />by Eric Schares, <a href='mailto:scharesdatascience@gmail.com'>scharesdatascience@gmail.com</a></p>"
 st.markdown(html_string, unsafe_allow_html=True)
 
 
