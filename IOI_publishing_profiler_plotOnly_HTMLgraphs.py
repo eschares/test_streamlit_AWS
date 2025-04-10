@@ -33,6 +33,7 @@ with st.expander('More information:'):
 
 debug_flag = 0
 debug_flag_savecommands = 0
+folder = 'eschares.github.io/test_streamlit_AWS/HTML_graphs'
 
 institution_lookup_table = pd.read_csv('data/data_comparison_nolinks.csv', encoding='latin1')
 #institution_lookup_table
@@ -94,12 +95,12 @@ col1, col2 = st.columns(2)
 with col1:
     st.markdown('#### Raw Counts')
     #st.plotly_chart(fig)
-    components.iframe(f"https://eschares.github.io/test_streamlit_AWS/HTML_graphs/{institution_name_nospaces}_fig1.html", height=500, width=400)
+    components.iframe(f"https://{folder}/{institution_name_nospaces}_fig1.html", height=500, width=400)
 
 with col2:
     st.markdown('#### Percentages')
     #st.plotly_chart(fig2)
-    components.iframe(f"https://eschares.github.io/test_streamlit_AWS/HTML_graphs/{institution_name_nospaces}_fig2.html", height=500, width=400)
+    components.iframe(f"https://{folder}/{institution_name_nospaces}_fig2.html", height=500, width=400)
 
 # st.write('iframe')
 # components.iframe("https://eschares.github.io/test_streamlit_AWS/Cary_fig.html", height=500)   # works! Github pages  Settings - Pages - Deploy
@@ -118,11 +119,11 @@ col3, col4 = st.columns(2)
 
 with col3:
     st.subheader('Raw Counts')
-    components.iframe(f"https://eschares.github.io/test_streamlit_AWS/HTML_graphs/{institution_name_nospaces}_fig3.html", height=500, width=400)
+    components.iframe(f"https://{folder}/{institution_name_nospaces}_fig3.html", height=500, width=400)
 
 with col4:
     st.subheader('Percentages')
-    components.iframe(f"https://eschares.github.io/test_streamlit_AWS/HTML_graphs/{institution_name_nospaces}_fig4.html", height=500, width=400)
+    components.iframe(f"https://{folder}/{institution_name_nospaces}_fig4.html", height=500, width=400)
 
 
 
@@ -144,11 +145,11 @@ col5, col6 = st.columns(2)
 
 with col5:
     st.subheader('Raw Counts')
-    components.iframe(f"https://eschares.github.io/test_streamlit_AWS/HTML_graphs/{institution_name_nospaces}_fig5.html", height=500, width=400)
+    components.iframe(f"https://{folder}/{institution_name_nospaces}_fig5.html", height=500, width=400)
 
 with col6:
     st.subheader('Percentages')
-    components.iframe(f"https://eschares.github.io/test_streamlit_AWS/HTML_graphs/{institution_name_nospaces}_fig6.html", height=500, width=500)
+    components.iframe(f"https://{folder}/{institution_name_nospaces}_fig6.html", height=500, width=500)
 
 
 #### 50% points by publisher
@@ -193,13 +194,13 @@ st.subheader('Breakdown by **:red[Publisher]**')
 
 st.subheader('By Count')
 
-components.iframe(f"https://eschares.github.io/test_streamlit_AWS/HTML_graphs/{institution_name_nospaces}_fig8.html", height=600, width=900)
+components.iframe(f"https://{folder}/{institution_name_nospaces}_fig8.html", height=600, width=900)
 
 
 
 st.subheader('By Percent')
 
-components.iframe(f"https://eschares.github.io/test_streamlit_AWS/HTML_graphs/{institution_name_nospaces}_fig9.html", height=600, width=900, scrolling=False)
+components.iframe(f"https://{folder}/{institution_name_nospaces}_fig9.html", height=600, width=900, scrolling=False)
 
 
 # st.write(f"How many publishers are represented each year? How many does it take to make up 50% of {institution_name}'s CorrAuth USFF publications?")
@@ -214,8 +215,8 @@ st.markdown('---')
 #st.header('Further Details on the `yes_yes` Documents (Corresponding & Federally Funded)')
 st.subheader('Breakdown by **:red[Journal Title]**')
 
-components.iframe(f"https://eschares.github.io/test_streamlit_AWS/HTML_graphs/{institution_name_nospaces}_fig10.html", height=800, width=950)#, scrolling=True)
-components.iframe(f"https://eschares.github.io/test_streamlit_AWS/HTML_graphs/{institution_name_nospaces}_fig13.html", height=800, width=950)#, scrolling=True)
+components.iframe(f"https://{folder}/{institution_name_nospaces}_fig10.html", height=800, width=950)#, scrolling=True)
+components.iframe(f"https://{folder}/{institution_name_nospaces}_fig13.html", height=800, width=950)#, scrolling=True)
 
 
 
@@ -225,13 +226,13 @@ st.markdown('---')
 #st.header('Further Details on the `yes_yes` Documents (Corresponding & Federally Funded)')
 st.subheader('Breakdown by **:red[Funder]**')
 
-components.iframe(f"https://eschares.github.io/test_streamlit_AWS/HTML_graphs/{institution_name_nospaces}_fig11.html", height=800, width=1000)#, scrolling=True)
+components.iframe(f"https://{folder}/{institution_name_nospaces}_fig11.html", height=800, width=1000)#, scrolling=True)
 
 
 
 st.subheader('Look into the details of the most common federal funder')
-components.iframe(f"https://eschares.github.io/test_streamlit_AWS/HTML_graphs/{institution_name_nospaces}_fig12.html", height=800, width=1000)#, scrolling=True)
-components.iframe(f"https://eschares.github.io/test_streamlit_AWS/HTML_graphs/{institution_name_nospaces}_fig14.html", height=1000, width=1000)#, scrolling=True)
+components.iframe(f"https://{folder}/{institution_name_nospaces}_fig12.html", height=800, width=1000)#, scrolling=True)
+components.iframe(f"https://{folder}/{institution_name_nospaces}_fig14.html", height=1000, width=1000)#, scrolling=True)
 
 
 
